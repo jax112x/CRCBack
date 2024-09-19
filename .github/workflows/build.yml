@@ -1,8 +1,9 @@
 name: Terraform Deployment
 
 on:
-  push:
-    branches: [ "master" ]
+  workflow_dispatch:
+  # push:
+  #   branches: [ "master" ]
 
 permissions:
   id-token: write
